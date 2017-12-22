@@ -49,9 +49,7 @@ class Sale extends Model
      * @var array
      */
     public static $rules = [
-        'upload_id' => 'required',
         'code' => 'required',
-        'nik' => 'required',
         'transaction_number' => 'required',
         'amount' => 'required',
         'total' => 'required'

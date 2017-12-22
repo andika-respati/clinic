@@ -1,7 +1,7 @@
 <!-- Code Field -->
 <div class="form-group col-sm-3">
     {!! Form::label('code', 'Code:') !!}
-    <select class="form-control select2" name="classification">
+    <select class="form-control select2" name="code">
         @if (@$purchase)
             <option selected>{!! $purchase->code !!}</option>
         @endif
